@@ -117,6 +117,14 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
+"""
+define the static and media file Directory
+
+>> python manage.py collectstatic
+
+to collect all the static file in static_root folder
+
+"""
 
 STATIC_URL = '/static/'
 MEDIA_URL ='/media/'
